@@ -1,9 +1,6 @@
 .jumbotron{
   text-align: center;
-  color:red;
-  background-image: url(../img/pig1.jpg);
-  background-repeat: repeat-x;
-  background-size: contain;
+  opacity: 0.9;
 }
 .container-center{
 text-align: center;
@@ -19,21 +16,33 @@ color: white;
   padding: 30px;
   color: white;
 }
-.text-box{
+.container-mode{
+  margin-top: 20px;
   text-align: center;
   font-size: 300%;
+  background-color: grey;
+  border-radius: 60px;
+  opacity: 0.9;
 }
 .inner-left{
   text-align: center;
 }
 body{
   background-image: url(../img/dice.png);
+  background-attachment: fixed;
 }
 .float-right-area{
   float:right;
   background-color: black;
   border-radius: 20px;
   padding:30px;
+  color:white;
+  text-align: center;
+}
+.float-area-right{
+  background-color: black;
+  border-radius: 20px;
+  padding:20px;
   color:white;
   text-align: center;
 }
