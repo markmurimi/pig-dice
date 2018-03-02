@@ -7,22 +7,33 @@
 }
 .container-center{
 text-align: center;
+background-color: black;
+border-radius: 20px;
+padding: 20px;
+color: white;
 }
 .float-left-area{
   float:left;
+  background-color:black;
+  border-radius: 20px;
+  padding: 30px;
+  color: white;
 }
 .text-box{
   text-align: center;
-  font-size: 200%;;
+  font-size: 300%;
 }
 .inner-left{
   text-align: center;
 }
 body{
   background-image: url(../img/dice.png);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
-.container{
-  color: blue;
+.float-right-area{
+  float:right;
+  background-color: black;
+  border-radius: 20px;
+  padding:30px;
+  color:white;
+  text-align: center;
 }
