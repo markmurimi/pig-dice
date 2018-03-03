@@ -5,7 +5,6 @@ Created by ***Mark Murimi***,3rd March.
 ### Description
 Game Of Thrones is a web page where you can play Pig Dice with another opponent or with the computer as your opponent . You can also play the game using two dice to earn more points. The game is based on the following rules:
 * You must play the game with an opponent.
-* If challenging your computer to be your opponent you must choose your hardness level to continue.
 * You only get to roll the dice once after your opponent has rolled the dice.
 
 ---
