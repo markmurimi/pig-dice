@@ -7,10 +7,12 @@
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
   </head>
-  <body>
-    <div class="jumbotron">
-      <h1 style="font-size:400%;"><b>Welcome To The Pig Dice Game</b></h1>
+  <header>
+     <div class="jumbotron">
+      <h1 style="font-size:600%;"><b>Pig Dice</b></h1>
     </div>
+  </header>
+  <body>
     <div class="container">
       <div class="container-center">
         <h2>How To Play.</h2>
@@ -22,7 +24,7 @@
         <div class="inner-left">
         <form id="inputForm">
           <p style="color:white; font-size:150%;"><b>Player One Name</b></p>
-          <input type="text" name="" value="">
+          <input type="text" name="" value="" style="font-weight:bold; font-size:100%;">
           <p></p>
           <button type="submit"><b>Submit!</b></button>
         </form>
@@ -30,12 +32,27 @@
       <div class="inner-right">
         <form id="inputForm">
           <p style="color:white; font-size:150%;"><b>Player Two Name</b></p>
-          <input type="text" name="" value="">
+          <input type="text" name="" value="" style="font-weight:bold; font-size:100%;">
           <p></p>
           <button type="submit"><b>Submit!</b></button>
         </form>
+        <div class="output">
+        </div>
       </div>
       </div>
-  </div>
-  </body>
+      <div class="container-dice">
+        <div class="container-left">
+          <button type="click"><b>Roll</b></button>
+          <button type="click"><b>Hold</b></button>
+        </div>
+        <div class="container-right">
+          <button type="click"><b>Roll</b></button>
+          <button type="click"><b>Hold</b></button>
+        </div>
+      </div>
+    </div>
+      <div class="container-fluid">
+      <img src="img/images.jpg" style="width:250px;"><img src="img/images.jpg" style="width:250px;"><img src="img/images.jpg" style="width:250px;"><img src="img/images.jpg"style="width:250px;"><img src="img/images.jpg" style="width:250px;">
+    </div>
+</body>
 </html>

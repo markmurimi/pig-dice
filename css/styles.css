@@ -34,9 +34,32 @@ body{
   margin: 30px;
   float:left;
   background-color: black;
-  opacity:0.95;
+  opacity:0.9;
 }
 button{
   padding-left: 30px;
   padding-right: 30px;
+}
+.container-output{
+  background-color: black;
+}
+.container-right{
+  float:right;
+  background-color: black;
+  opacity: 0.98;
+  padding-top:40px;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-bottom: 40px;
+  margin: 30px;
+}
+.container-left{
+  float:left;
+  background-color: black;
+  opacity: 0.98;
+  padding-top:40px;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-bottom: 40px;
+  margin: 30px;
 }
