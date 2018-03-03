@@ -20,3 +20,15 @@ Game Of Thrones is a web page where you can play Pig Dice with another opponent 
 * Bootstrap
 
 ---
+
+## To setup the project you need to :
+* Open GitHub and search my user name [markmurimi](https://github.com/markmurimi)
+* Then locate the repository "pig-dice" and open.
+* On the Download or Clone tab select the download option and save it on a folder of choice or simply clone the repo to your computer)
+* After this unzip the file and the entire repo will be available on your local machine.
+* Open the "index.html" file and it should automaticaly be opened in your browser.
+
+---
+Copyright and License are under [**MIT**]()
+
+©MARKKMURIMI ~ 2018
