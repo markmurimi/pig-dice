@@ -1,6 +1,7 @@
 .jumbotron{
   text-align: center;
-  opacity: 0.9;
+  background-image: url(../img/images.jpg);
+  color:#d9dbda;
 }
 .container-center{
 text-align: center;
@@ -22,7 +23,7 @@ color: white;
   font-size: 300%;
   background-color: grey;
   border-radius: 60px;
-  opacity: 0.9;
+  opacity: 0.96;
 }
 .inner-left{
   text-align: center;
@@ -45,4 +46,46 @@ body{
   padding:20px;
   color:white;
   text-align: center;
+}
+.container-mode-2{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 300%;
+  background-color: grey;
+  border-radius: 60px;
+  opacity: 0.96;
+}
+.float-right-area-1{
+  float:right;
+  background-color: black;
+  border-radius: 30px;
+  padding:30px;
+  color:white;
+  text-align: center;
+}
+.float-area-right-1{
+  background-color: black;
+  border-radius: 20px;
+  padding:20px;
+  color:white;
+  text-align: center;
+}
+.float-left-area-1{
+  float:left;
+  background-color:black;
+  border-radius: 20px;
+  padding: 30px;
+  color: white;
+}
+.container-dice{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 150%;
+  background-color: grey;
+  border-radius: 60px;
+  opacity: 0.96;
+}
+img{
+  height: 250px;
+  width:400px;
 }
