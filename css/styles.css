@@ -74,7 +74,8 @@ body{
   float:left;
   background-color:black;
   border-radius: 20px;
-  padding: 30px;
+  padding: 20px;
+  padding-bottom:36px;
   color: white;
 }
 .container-dice{
@@ -91,4 +92,9 @@ img{
 }
 .container-image{
   text-align: center;
+  margin-top: 20px;
+}
+button{
+  background-color: #626363;
+  color: white;
 }
