@@ -16,7 +16,7 @@ body{
   background-image: url(../img/dice.png);
   background-attachment: fixed;
 }
-.inner-right{
+.container-inner-right{
   padding-top:50px;
   padding-right: 140px;
   padding-left: 140px;
@@ -26,7 +26,7 @@ body{
   background-color: black;
   opacity:0.9;
 }
-.inner-left{
+.container-inner-left{
   padding-top:50px;
   padding-right: 140px;
   padding-left: 140px;
