@@ -2,6 +2,7 @@
   <html>
   <head>
     <title>Game Of Thrones </title>
+    <meta charset="utf-8">
     <link href="css/styles.css"rel="stylesheet"type="text/css">
     <link href="css/bootstrap.css"rel="stylesheet"type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
@@ -24,35 +25,26 @@
         <div class="container-inner-left">
         <form id="inputForm">
           <p style="color:white; font-size:150%;"><b>Player One Name</b></p>
-          <input type="text" name="" value="" style="font-weight:bold; font-size:100%;">
-          <p></p>
-          <button type="submit"><b>Submit!</b></button>
-        </form>
-      </div>
-      <div class="container-inner-right">
-        <form id="inputForm">
-          <p style="color:white; font-size:150%;"><b>Player Two Name</b></p>
-          <input type="text" name="" value="" style="font-weight:bold; font-size:100%;">
-          <p></p>
-          <button type="submit"><b>Submit!</b></button>
-        </form>
-        <div class="output">
+          <div class="form-group">
+          <input id="player1-name" type="text" style="font-weight:bold; font-size:120%;">
         </div>
+        <div class="form-group">
+          <p style="color:white; font-size:150%;"><b>Player two Name</b></p>
+          <input id="player2-name" type="text" style="font-weight:bold; font-size:120%;">
       </div>
-      </div>
+      <button id="play-btn" type="submit">Submit</button>
+    </form>
+    </div>
       <div class="container-dice">
-        <div class="container-left">
-          <button type="click"><b>Roll</b></button>
-          <button type="click"><b>Hold</b></button>
-        </div>
-        <div class="container-right">
-          <button type="click"><b>Roll</b></button>
-          <button type="click"><b>Hold</b></button>
-        </div>
-      </div>
+      <div  id="display-players">
+      <h1><span id="player1-Name"></span> : <span id="player1-Score"></span></h1>
+      <button class="btn btn" id="roll-btn" type="submit">Roll</button>
+      <span><button class="btn" id="hold-btn"type="submit">Hold</button></span>
+      <h1><span id="player2-Name"></span> : <span id="player2-Score"></span></h1>
+      <button class="btn btn" id="roll-btn" type="submit">Roll</button>
+      <span><button class="btn btn" id="hold-btn"type="submit">Hold </button></span>
     </div>
-      <div class="container-fluid">
-      <img src="img/images.jpg" style="width:250px;"><img src="img/images.jpg" style="width:250px;"><img src="img/images.jpg" style="width:250px;"><img src="img/images.jpg"style="width:250px;"><img src="img/images.jpg" style="width:250px;">
-    </div>
+  </div>
+</div>
 </body>
 </html>
